@@ -1,0 +1,32 @@
+<?php
+header("Content-type: text/plain");
+?>
+User-agent: Googlebot
+Disallow: /catalog/
+Disallow: /css/
+Disallow: /gb/
+Disallow: /img/
+Disallow: /js/
+Disallow: /min/
+Disallow: /template/
+Disallow: *feedback.php
+
+User-agent: Googlebot-Image
+Disallow: /css/
+Disallow: /gb/
+Disallow: /img/
+Disallow: /js/
+Disallow: /min/
+Disallow: /template/
+Disallow: *feedback.php
+
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /gb/
+Disallow: /img/
+Disallow: /min/
+Disallow: /template/
+Disallow: *feedback.php
+Sitemap: http://souvenir.comze.com/sitemap.xml.gz
+Sitemap: http://souvenir.comze.com/sitemap.xml
